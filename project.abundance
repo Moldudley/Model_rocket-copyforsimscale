@@ -228,8 +228,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.6373755125951963,
-      "y": 0.5329949238578681,
+      "x": 0.6403046280023433,
+      "y": 0.5101522842639594,
       "uniqueID": "id-2679",
       "ioValues": [
         {
@@ -571,8 +571,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8845928529584066,
-      "y": 0.718274111675127,
+      "x": 0.8236672524897481,
+      "y": 0.7233502538071066,
       "uniqueID": "id-2692",
       "ioValues": [
         {
@@ -590,14 +590,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Model_rocket_simscale",
-          "currentEquation": "Model_rocket_simscale"
+          "ioValue": "Model_rocket_simscalev2",
+          "currentEquation": "Model_rocket_simscalev2"
         }
       ],
       "type": null,
       "resolution": 96,
       "importIndex": 0,
-      "partName": "Model_rocket_simscale"
+      "partName": "Model_rocket_simscalev2"
     },
     {
       "atomType": "Molecule",
@@ -3762,6 +3762,273 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.6807264206209724,
+      "y": 0.2614213197969543,
+      "uniqueID": "id-3200",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "extrude-circle-11-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-200",
+            "dimension": "3D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "move-move-08fb1683-0-0-0-50-0-0-190",
+            "color": "#aad7f2",
+            "tags": [
+              "nose-cone",
+              "haack-series"
+            ],
+            "bom": [
+              "Haack series nose cone, length 40mm, outer diameter 22mm, C=0"
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "metadata": {},
+            "dimension": "3D"
+          }
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "move-rotate-fuse-extrude-f71f8280-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5-loft-f71f8280-0-move-a18e1e20-0-20-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}---0-90-0-11-0-15",
+                "tags": [],
+                "bom": [
+                  "NACA 0010 airfoil profile, chord 30mm"
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "dimension": "3D",
+                "boundingBox": {
+                  "min": [
+                    9.499999899999997,
+                    -1.4992870451746665,
+                    -10.0000001
+                  ],
+                  "max": [
+                    31.000000100000005,
+                    1.4992870451746665,
+                    30.0000001
+                  ]
+                }
+              },
+              {
+                "geometry": "rotate-move-rotate-fuse-extrude-f71f8280-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5-loft-f71f8280-0-move-a18e1e20-0-20-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}---0-90-0-11-0-15-0-0-90",
+                "tags": [],
+                "bom": [
+                  "NACA 0010 airfoil profile, chord 30mm"
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "dimension": "3D",
+                "boundingBox": {
+                  "min": [
+                    -1.4992870451746656,
+                    9.499999899999997,
+                    -10.0000001
+                  ],
+                  "max": [
+                    1.4992870451746698,
+                    31.000000100000005,
+                    30.0000001
+                  ]
+                }
+              },
+              {
+                "geometry": "rotate-move-rotate-fuse-extrude-f71f8280-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5-loft-f71f8280-0-move-a18e1e20-0-20-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}---0-90-0-11-0-15-0-0-180",
+                "tags": [],
+                "bom": [
+                  "NACA 0010 airfoil profile, chord 30mm"
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "dimension": "3D",
+                "boundingBox": {
+                  "min": [
+                    -31.000000100000005,
+                    -1.4992870451746654,
+                    -10.0000001
+                  ],
+                  "max": [
+                    -9.499999899999997,
+                    1.49928704517467,
+                    30.0000001
+                  ]
+                }
+              },
+              {
+                "geometry": "rotate-move-rotate-fuse-extrude-f71f8280-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5-loft-f71f8280-0-move-a18e1e20-0-20-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}---0-90-0-11-0-15-0-0-270",
+                "tags": [],
+                "bom": [
+                  "NACA 0010 airfoil profile, chord 30mm"
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "dimension": "3D",
+                "boundingBox": {
+                  "min": [
+                    -1.4992870451746731,
+                    -31.000000100000005,
+                    -10.0000001
+                  ],
+                  "max": [
+                    1.4992870451746645,
+                    -9.499999899999997,
+                    30.0000001
+                  ]
+                }
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": [
+              "NACA 0010 airfoil profile, chord 30mm",
+              "NACA 0010 airfoil profile, chord 30mm",
+              "NACA 0010 airfoil profile, chord 30mm",
+              "NACA 0010 airfoil profile, chord 30mm"
+            ],
+            "dimension": "3D",
+            "nonReplicadSerialized": [],
+            "boundingBox": {
+              "min": [
+                -31.000000100000005,
+                -31.000000100000005,
+                -10.0000001
+              ],
+              "max": [
+                31.000000100000005,
+                31.000000100000005,
+                30.0000001
+              ]
+            }
+          }
+        }
+      ],
+      "unionType": "Fusion"
     }
   ],
   "allConnectors": [
@@ -3769,6 +4036,11 @@
       "ap2Name": "Shape 4",
       "ap1ID": "id-1391",
       "ap2ID": "id-2679"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-1391",
+      "ap2ID": "id-3200"
     },
     {
       "ap2Name": "Shape 2",
@@ -3789,6 +4061,11 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-2069",
       "ap2ID": "id-2679"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-2069",
+      "ap2ID": "id-3200"
     },
     {
       "ap2Name": "Shape 1",
@@ -3812,16 +4089,6 @@
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-2679",
-      "ap2ID": "id-2692"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-2679",
-      "ap2ID": "id-1248"
-    },
-    {
-      "ap2Name": "geometry",
       "ap1ID": "id-1280",
       "ap2ID": "id-2177"
     },
@@ -3834,6 +4101,11 @@
       "ap2Name": "Shape 3",
       "ap1ID": "id-1250",
       "ap2ID": "id-2679"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-1250",
+      "ap2ID": "id-3200"
     },
     {
       "ap2Name": "geometry",
@@ -3859,6 +4131,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-1985",
       "ap2ID": "id-2005"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-3200",
+      "ap2ID": "id-1248"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3200",
+      "ap2ID": "id-2692"
     }
   ],
   "unitsKey": "MM",
