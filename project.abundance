@@ -462,6 +462,109 @@
             "metadata": {},
             "dimension": "3D"
           }
+        },
+        {
+          "name": "Shape 5",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "cut-rotate-move-move-cut-fuse-extrude-circle-2.9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-move-extrude-rectangle-3.8-5.8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-1.9-0-0-extrude-circle-1.9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30--13.5-0-0-0-0-40-0-0-45-extrude-circle-11-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-200",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "dimension": "3D"
+              },
+              {
+                "geometry": "cut-rotate-move-move-cut-fuse-extrude-circle-2.9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-move-extrude-rectangle-3.8-5.8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-1.9-0-0-extrude-circle-1.9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30--13.5-0-0-0-0-140-0-0-45-extrude-circle-11-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-200",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "dimension": "3D"
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": [],
+            "nonReplicadSerialized": {}
+          }
+        },
+        {
+          "name": "Shape 6",
+          "ioValue": {
+            "geometry": "extrude-circle-11-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-200",
+            "dimension": "3D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
         }
       ],
       "unionType": "Fusion"
@@ -3730,6 +3833,11 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-2679",
+      "ap2ID": "id-2692"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-1280",
       "ap2ID": "id-2177"
     },
@@ -3742,6 +3850,11 @@
       "ap2Name": "remove",
       "ap1ID": "id-1250",
       "ap2ID": "id-3207"
+    },
+    {
+      "ap2Name": "Shape 6",
+      "ap1ID": "id-1250",
+      "ap2ID": "id-2679"
     },
     {
       "ap2Name": "geometry",
@@ -3768,7 +3881,11 @@
       "ap1ID": "id-1985",
       "ap2ID": "id-2005"
     },
-    null
+    {
+      "ap2Name": "Shape 5",
+      "ap1ID": "id-3207",
+      "ap2ID": "id-2679"
+    }
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
